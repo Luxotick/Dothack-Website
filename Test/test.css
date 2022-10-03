@@ -239,6 +239,10 @@ body {
     font-size: 50px;
 }
 
-
+.wrap {
+    place-content: center;
+    position: relative;
+    left: -1mm;
+}
 
 /* allah var yalan söylemeyin */
