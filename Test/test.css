@@ -9,7 +9,7 @@
 }
 
 .btn-29 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 45%;
     transform: translate(-50, -50);
@@ -232,9 +232,10 @@ body {
 }
 
 .developerteam p {
-    line-height: 500px;
+    top: 10cm;
+    line-height: normal;
     text-align: center;
-    color: blueviolet;
+    color: rgb(43, 86, 226);
     font-family: 'SilkScreen', cursive;
     font-size: 50px;
 }
@@ -243,6 +244,23 @@ body {
     place-content: center;
     position: relative;
     left: -1mm;
+}
+
+.LuxoGit img {
+    position: relative;
+    top: 50%;
+    right: 0.5%;
+    border-radius: 50%;
+    width: 120px;
+    border: 3px solid rgb(22, 22, 22);
+}
+
+.LuxoGit .link {
+    position: relative;
+    place-content: center;
+    left: -10px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 /* allah var yalan söylemeyin */
