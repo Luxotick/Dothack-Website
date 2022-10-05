@@ -249,7 +249,25 @@ body {
 .LuxoGit img {
     position: relative;
     top: 50%;
-    right: 0.5%;
+    right: -6%;
+    border-radius: 50%;
+    width: 120px;
+    border: 3px solid rgb(22, 22, 22);
+}
+
+.CrawGit img {
+    position: relative;
+    top: 50%;
+    right: 30%;
+    border-radius: 50%;
+    width: 120px;
+    border: 3px solid rgb(22, 22, 22);
+}
+
+.JavaGit img {
+    position: relative;
+    top: 50%;
+    left: 22.5%;
     border-radius: 50%;
     width: 120px;
     border: 3px solid rgb(22, 22, 22);
@@ -260,6 +278,30 @@ body {
     place-content: center;
     top: 60%;
     left: 43.5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+    width: fit-content;
+    display: inline-block;
+}
+
+.CrawGit .link {
+    position: absolute;
+    place-content: center;
+    top: 60%;
+    left: 15%;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+    width: fit-content;
+    display: inline-block;
+}
+
+.JavaGit .link {
+    position: absolute;
+    place-content: center;
+    top: 60%;
+    left: 71%;
     font-family: 'Poppins', sans-serif;
     font-size: large;
     box-sizing: border-box;
