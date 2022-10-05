@@ -256,11 +256,15 @@ body {
 }
 
 .LuxoGit .link {
-    position: relative;
+    position: absolute;
     place-content: center;
-    left: -10px;
+    top: 60%;
+    left: 43.5%;
     font-family: 'Poppins', sans-serif;
+    font-size: large;
     box-sizing: border-box;
+    width: fit-content;
+    display: inline-block;
 }
 
 /* allah var yalan söylemeyin */
