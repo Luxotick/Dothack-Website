@@ -240,6 +240,12 @@ body {
     font-size: 50px;
 }
 
+.developerteamdiv {
+    top: 90%;
+    left: 37.5%;
+    position: absolute;
+}
+
 .wrap {
     place-content: center;
     position: relative;
@@ -249,7 +255,7 @@ body {
 .LuxoGit img {
     position: relative;
     top: 50%;
-    right: -6%;
+    right: -24.0%;
     border-radius: 50%;
     width: 120px;
     border: 3px solid rgb(22, 22, 22);
@@ -258,7 +264,7 @@ body {
 .CrawGit img {
     position: relative;
     top: 50%;
-    right: 30%;
+    right: 130%;
     border-radius: 50%;
     width: 120px;
     border: 3px solid rgb(22, 22, 22);
@@ -267,7 +273,7 @@ body {
 .JavaGit img {
     position: relative;
     top: 50%;
-    left: 22.5%;
+    left: 102%;
     border-radius: 50%;
     width: 120px;
     border: 3px solid rgb(22, 22, 22);
@@ -276,8 +282,8 @@ body {
 .LuxoGit .link {
     position: absolute;
     place-content: center;
-    top: 60%;
-    left: 43.5%;
+    top: 100%;
+    left: 24%;
     font-family: 'Poppins', sans-serif;
     font-size: large;
     box-sizing: border-box;
@@ -288,8 +294,8 @@ body {
 .CrawGit .link {
     position: absolute;
     place-content: center;
-    top: 60%;
-    left: 15%;
+    top: 100%;
+    left: -100%;
     font-family: 'Poppins', sans-serif;
     font-size: large;
     box-sizing: border-box;
@@ -300,13 +306,26 @@ body {
 .JavaGit .link {
     position: absolute;
     place-content: center;
-    top: 60%;
-    left: 71%;
+    left: 165%;
+    top: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: large;
-    box-sizing: border-box;
-    width: fit-content;
     display: inline-block;
 }
 
-/* allah var yalan söylemeyin */
+.LegalDisclaimer p {
+    font-family: 'Noto Sans', sans-serif;
+    width: 800px;
+    position: relative;
+    font-size: large;
+    left: 28%;
+}
+
+.youtube {
+    position: absolute;
+    display: inline-block;
+    top: 53.5%;
+    left: 35.5%;
+}
+
+/* allah var yalan söylemeyin */ 
